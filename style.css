@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
+html::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     background: url('img/background-color.jpg');
     background-repeat: no-repeat;
@@ -18,13 +26,15 @@ body{
     border: 5px solid violet;
     border-radius: 10px;
 }
-/* Custom CSS */
-.custom-button {
-    background-color: #ff9900; /* Change this color code to your desired color */
-    color: #ffffff; /* Text color */
-    border-color: #ff9900; /* Border color, optional */
+.custom-width{
+    width: 100px;
 }
-
+.custom-height{
+    height: 50px;
+}
+.custom-margin{
+    margin-top: 160px;
+}
 @media (max-width: 600px) {
     .navbar-nav {
         display: flex;
