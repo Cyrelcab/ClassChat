@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('img/background-color.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-color{
+    background-color: rgba(0, 6, 17,.2);
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+}
+.custom-border{
+    border: 5px solid violet;
+    border-radius: 10px;
+}
+/* Custom CSS */
+.custom-button {
+    background-color: #ff9900; /* Change this color code to your desired color */
+    color: #ffffff; /* Text color */
+    border-color: #ff9900; /* Border color, optional */
+}
+
+@media (max-width: 600px) {
+    .navbar-nav {
+        display: flex;
+        align-items: start;
+        margin-left: 1rem;
+    }
+}
